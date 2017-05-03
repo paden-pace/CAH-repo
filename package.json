@@ -1,0 +1,32 @@
+{
+  "name": "cards-repo",
+  "version": "1.0.0",
+  "description": "a multiplayer game based in node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paden-pace/CAH-repo.git"
+  },
+  "keywords": [
+    "node",
+    "CAH",
+    "express",
+    "sequelize",
+    "handlebars"
+  ],
+  "author": "Paden Pace",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paden-pace/CAH-repo/issues"
+  },
+  "homepage": "https://github.com/paden-pace/CAH-repo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "sequelize": "^3.30.4"
+  }
+}
