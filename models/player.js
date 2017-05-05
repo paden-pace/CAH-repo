@@ -17,7 +17,7 @@ module.exports = function(sequelize, DataTypes) {
 			type: DataTypes.BOOLEAN,
 			defaultValue: false
 		},
-		currentHand: {
+		hand: {
 			type: DataTypes.ARRAY
 		}
 	});
